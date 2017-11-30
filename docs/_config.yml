@@ -1,0 +1,51 @@
+# name of the software
+name: Aezx Engine
+
+project:
+    version: 0.1.0
+    download_url: https://github.com/aezx/engine/releases
+
+license:
+    software: MIT License
+    software_url: http://opensource.org/licenses/MIT
+
+    docs: CC BY 3.0
+    docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+    header:
+      - title: GitHub
+        url: https://github.com/aezx/engine
+    footer:
+      - title: GitHub
+        url: https://github.com/aezx/engine
+      - title: Issues
+        url: https://github.com/aezx/engine/issues?state=open
+
+ui:
+    header:
+        color1: "#080331"
+        color2: "#673051"
+        trianglify: true
+
+social:
+    github:
+        user: aezx
+        repo: engine
+    twitter:
+        enabled: true
+        via:
+        hash:
+        account: aethelo
+    facebook:
+        enabled: false
+        profileUrl:
+
+analytics:
+    google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock
